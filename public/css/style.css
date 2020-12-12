@@ -1,0 +1,92 @@
+@media only screen and (min-width: 700px) {
+  .form-container {
+    width: 60%;
+    margin-left: 20%;
+  }
+}a {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1700px) {
+  .container { max-width: 1500px;}
+}
+
+.mycard {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 0;
+}
+.no-round {
+  border-radius: 0;
+  border: 0;
+}
+/* On mouse-over, add a deeper shadow */
+.mycard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 999999; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  transform: translateX(-50%);
+  bottom: 30px; /* 30px from the bottom */
+  animation: fadein 0.5s;
+  /* animation-delay: 2.5s; */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
+  /* -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; */
+  animation: fadein 0.5s;
+}
+
+#snackbar .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
+.chat-user{ max-width: 90%;}
+.chat-org{ max-width: 90%;}
+
+
