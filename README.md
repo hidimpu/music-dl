@@ -19,7 +19,7 @@
 ### ``` node app.js ```
 
 ### - Open your browser and type 
-### ` localhost: http://localhost:9000/ `
+### `  http://localhost:9000/ `
 
 Leave a Star :hugs: and feel free to contribute  
 >*really looking for a reliable API for conversion*
