@@ -3,7 +3,7 @@
 
 ### **A live working demo hosted on Heroku is [Here !](https://music-dl-mp3.herokuapp.com/)**
 
-### <u> How to Run! </u>
+## <u> How to Run! </u>
 ### - Clone the repository 
  
 ###  ` "git repo clone https://github.com/hidimpu/music-dl.git" `
