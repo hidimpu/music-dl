@@ -1,7 +1,30 @@
-# music-downloader
-Download any song with a simple search
+# Music-DL 🎵⬇
+### **Download any song with a simple search! ❤🔥**
 
-environment variables used:
-`KEY: <your youtube search API key>`
+### **A live working demo hosted on Heroku is [Here !](https://music-dl-mp3.herokuapp.com/)**
 
-https://music-dl-ut.herokuapp.com/ (not working currently)
+### <u> How to Run! </u>
+### - Clone the repository 
+ 
+###  ` "git repo clone https://github.com/hidimpu/music-dl.git" `
+
+### - Create/Replace a file named " *.env* " and add KEY=YOUR_API_KEY
+#### .       Refer to [This Guide](https://www.slickremix.com/docs/get-api-key-for-youtube/) for getting the Youtube Data Api Key
+
+### - Now open your preferred terminal inside the working directory
+### ` npm i `
+
+ 
+
+### ``` node app.js ```
+
+### - Open your browser and type 
+### ` localhost: http://localhost:9000/ `
+
+Leave a Star :hugs: and feel free to contribute  
+>*really looking for a reliable API for conversion*
+
+> *This repository is supposed to be made for educational purposes only and not for any sort of commercial/distribution use and I'm not responsible for any acts associated with it*
+
+
+
