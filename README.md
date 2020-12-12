@@ -3,6 +3,8 @@
 
 ### **A live working demo hosted on Heroku is [Here !](https://music-dl-mp3.herokuapp.com/)**
 
+<img src="https://heroku-badge.herokuapp.com/?app=music-dl-mp3" />
+
 > Modified it a little bit so I recycled it for my Minor Project in college 😝
 
 ## <u> How to Run! </u>
