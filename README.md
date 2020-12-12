@@ -8,7 +8,7 @@
 ## <u> How to Run! </u>
 ### - Clone the repository 
  
-###  ` git repo clone https://github.com/hidimpu/music-dl.git `
+###  ` git clone https://github.com/hidimpu/music-dl.git `
 
 ### - Create/Replace a file named " *.env* " and add KEY=YOUR_API_KEY
 #### .       Refer to [This Guide](https://www.slickremix.com/docs/get-api-key-for-youtube/) for getting the Youtube Data Api Key
