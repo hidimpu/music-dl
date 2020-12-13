@@ -90,19 +90,24 @@
 					// h+= `<p><b>File size: </b>${(data.file_size/1048576).toFixed(2)} MB</p>\n`
 					h+= `<div class="row justify-content-center m-0 mb-2">\n`
 					h+= `<div class="col-md-4 p-1">\n`
-					h+= `<iframe src="https://www.yt-download.org/api/button/mp3/${video.id}" width="100%" height="100px" scrolling="no" style="border:none;"></iframe>`
+						h+= `<div align="left" >\n`
+					h+= `<a class="btn btn-danger" href="${video.link}" target="_blank"> 
+						Listen <br> on <br>  Youtube <br>  <img src="https://img.icons8.com/color/48/000000/youtube-music.png"/>	 </a><br> <br><br>\n`
 					h+= `</div>\n`
-					h+= `<div class="col-md-4 p-1">\n`
-					h+= `<a class="btn btn-danger mycard" href="${video.link}" target="_blank"> 
-						Listen <br> on <br>  Youtube <br> 	 </a>\n`
+					h+= `<iframe src="https://www.yt-download.org/api/button/mp3/${video.id}" width="100%" height="100px" scrolling="no" style="border:none;"></iframe> <br >`
+					h+= `<br>\n`
+					h+= `<iframe src="https://www.yt-download.org/api/button/videos/${video.id}" width="100%" height="100px" scrolling="no" style="border:none;"></iframe>`
 					h+= `</div>\n`
+					
 					h+= `<div class="col-md-4 p-1">\n`
 					
 					h+= `</div>\n`
 					h+= `</div>\n`
 					h+= `</div>\n`
 					h+= `<div class="col-sm-6 px-sm-3 px-0">\n`
-					h+= `<img src="${video.thumbnails.high.url}" width="100%">\n`
+					h+= `<img src="${video.thumbnails.high.url}" width="100%">\n <br> <br> <br> `
+					h+= ` <center> <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.yt-download.org/api/button/mp3/${video.id}"> <br> <br> `
+					h+=` Scan this QR Code to get more download options in mp3!  </center> `
 					h+= `</div>`
 				}else{
 					var h = `<div class="alert alert-danger">${data.message}\n</div>`
