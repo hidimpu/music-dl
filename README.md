@@ -2,7 +2,7 @@
 ### **Download any song with a simple search! ❤🔥**
 
 ### **A live working demo hosted on Heroku is [Here !](https://music-dl-mp3.herokuapp.com/)**
-### **[Alternative Link!](https://music-dler.glitch.me)**
+### **[Alternative Link!](https://music-dl-mp3.glitch.me/)**
 
 
 <img src="https://heroku-badge.herokuapp.com/?app=music-dl-mp3" />
