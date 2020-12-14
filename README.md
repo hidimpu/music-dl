@@ -13,20 +13,20 @@
 ## <u> How to Run! </u>
 ### - Clone the repository 
  
-###  ` git clone https://github.com/hidimpu/music-dl.git `
+####  ` git clone https://github.com/hidimpu/music-dl.git `
 
 ### - Create/Replace a file named " *.env* " and add KEY=YOUR_API_KEY
 #### .       Refer to [This Guide](https://www.slickremix.com/docs/get-api-key-for-youtube/) for getting the Youtube Data Api Key
 
 ### - Now open your preferred terminal inside the working directory
-### ` npm i `
+#### ` npm i `
 
  
 
-### ``` node app.js ```
+#### ``` node app.js ```
 
 ### - Open your browser and type 
-### `  http://localhost:9000/ `
+#### `  http://localhost:9000/ `
 
 Leave a Star :hugs: and feel free to contribute  
 >*really looking for a reliable API for conversion*
