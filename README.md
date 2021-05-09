@@ -12,7 +12,7 @@
 >  `npm i`
 > `node app.js`
 
-###### Special thanks to [Vynex](https://vynex.gihub.io)    (Kushagra) for the UI
+###### Special thanks to [Vynex](https://vynex.github.io)    (Kushagra) for the UI
 
 ##### Leave a Star :hugs: and feel free to contribute  
 
