@@ -32,7 +32,7 @@
 
 ###### Screenshots 
 <img src="https://raw.github.com/hidimpu/music-dl/master/screenshots/frame_chrome_mac_dark%20(2).png" height=300>
-<img src="https://raw.github.com/hidimpu/music-dl/master/screenshots/frame_chrome_mac_dark%20(3).png">
-<img src="https://raw.github.com/hidimpu/music-dl/master/screenshots/frame_chrome_mac_dark%20(4).png">
+<img src="https://raw.github.com/hidimpu/music-dl/master/screenshots/frame_chrome_mac_dark%20(3).png" height=300>
+<img src="https://raw.github.com/hidimpu/music-dl/master/screenshots/frame_chrome_mac_dark%20(4).png" height=300>
 
 
