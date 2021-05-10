@@ -29,3 +29,8 @@
 </p>
 <h4>Donation: UPI ID: <b>parthds450@oksbi</b></h4>
 </center>
+
+###### Screenshots 
+[1](https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(2).png)
+[2](https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(3).png)
+[3](https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(4).png)
