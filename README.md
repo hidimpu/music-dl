@@ -31,6 +31,6 @@
 </center>
 
 ###### Screenshots 
-[1](https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(2).png)
-[2](https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(3).png)
-[3](https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(4).png)
+(https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(2).png)
+(https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(3).png)
+(https://raw.github.com/hidimpu/music-dl/blob/master/screenshots/frame_chrome_mac_dark%20(4).png)
