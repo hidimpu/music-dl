@@ -20,4 +20,4 @@
 
 > **This repository is supposed to be made for educational purposes only and not for any sort of commercial/distribution use and I'm not responsible for any acts associated with it**
 
-#####  Live Version: { To be updated soon }
+#####  Live Version: [Music-DL](https://music-dl.glitch.me/) (Facing Some issues with Heroku so hosted on Glitch)
