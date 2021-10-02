@@ -37,7 +37,8 @@
   --toastColor: #2e3143;
   --color2: #ffd94e;
   --color1: #ff0000;
-  --boxshadowcolor: #a6bfd6;
+  --boxshadowcolor: #565758; 
+
 }
 
 * {
@@ -68,6 +69,16 @@ a {
   text-decoration: none;
 }
 
+.borderh {
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 0.8;
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  margin: 0.5em auto 0.5em auto;
+  width: 80%;
+}
+
 header {
   color: var(--color2);
   text-shadow: 4px 2px var(--color1);
@@ -93,6 +104,10 @@ header {
   position: fixed;
   right: 2rem;
   cursor: pointer;
+}
+#switcher:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 300ms ease;
 }
 
 .card {
@@ -124,7 +139,8 @@ header {
 }
 
 .card-tab:hover {
-  background-color: var(--tabColor);
+  transform: scale(1.15, 1.15);
+  transition: transform 300ms ease;
 }
 
 .icon {
@@ -156,7 +172,7 @@ header {
 .card-search {
   flex: 1;
 
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo" ,sans-serif;
 
   display: flex;
   justify-content: center;
@@ -183,10 +199,12 @@ form {
   background-color: var(--inputColor);
 
   border: none;
+  border-radius: 6px;
 }
 
 .search-button {
-  padding: 0.4rem 0.8rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0 0 0 0.5em;
 
   font: inherit;
   font-size: 1.2rem;
@@ -194,10 +212,18 @@ form {
 
   color: inherit;
   background-color: var(--btnColor);
+  transition: background-color 300ms;
 
   border: none;
+  border-radius: 6px;
 
   cursor: pointer;
+  
+}
+.search-button:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 200ms ease;
+  box-shadow: 0px 1.5px 6px var(--boxshadowcolor);
 }
 
 .card-download {
@@ -225,6 +251,8 @@ form {
 
 #thumbnail {
   width: 100%;
+  border: none;
+  border-radius: 4px;
 }
 
 .qr-container {
@@ -254,6 +282,7 @@ form {
   width: 80%;
 }
 
+
 .download-end {
   flex: 1;
   display: flex;
@@ -267,6 +296,7 @@ form {
   border: none;
 }
 
+
 .listen {
   padding: 1rem;
   height: 2rem;
@@ -275,10 +305,17 @@ form {
 
   display: flex;
   align-items: center;
+
+  border-radius:4px;
 }
 
 #listen-text {
   margin: 0 1rem;
+}
+.listen:hover{
+  background-color: #ee7177;
+  transform: scale(1.05, 1.05);
+  transition: transform 400ms background-color 200ms ease;
 }
 
 footer {
