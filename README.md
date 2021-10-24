@@ -1,4 +1,4 @@
-# Music-DL 🎵⬇
+# Scrap-Music 🎵⬇
 ##### **Download any song with a simple search! ❤🔥**
 
 #####  How to Run it Locally:
