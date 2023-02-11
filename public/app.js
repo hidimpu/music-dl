@@ -1,4 +1,5 @@
-const apiURL = "https://www.yt-download.org/api/button/";
+// const apiURL = "https://www.yt-download.org/api/button/";
+const apiURL = "https://api.vevioz.com/api/button/";
 const qrURL =
   "https://api.qrserver.com/v1/create-qr-code/?size=150x150&bgcolor=232533&color=fafafa&data=";
 
